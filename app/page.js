@@ -21,7 +21,7 @@ export default function Home() {
         <Main />  
     </section>
 
-    <section className='fixed flex items-center w-full justify-evenly px-2 h-[10vh] bottom-0 left-0 right-0 bg-slate-800 bg-opacity-70 rounded-t-lg text-white' > 
+    <section className='fixed flex items-center w-[100vw] justify-evenly px-2 h-[10vh] bottom-0 left-0 right-0 bg-slate-800 bg-opacity-70 rounded-t-lg text-white' > 
       <HiHome onClick={()=>router.push("@/app/pages/login")} />
       <HiSearch />
       <HiHeart />
