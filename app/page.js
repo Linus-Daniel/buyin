@@ -10,7 +10,7 @@ import { FaCartPlus } from 'react-icons/fa'
 export default function Home() {
   const router = useRouter()
   return (
-    <main className="w-[100vw]">
+    <main className='w-[100vw]'>
     <header className='p-3 flex w-full justify-between items-center'>
       <FaCartPlus />
       <p>logo</p>
