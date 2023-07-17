@@ -5,17 +5,15 @@ import ProductCard from './pages/components/productCard'
 import Main from './pages/main'
 import { HiHeart, HiHome, HiMenuAlt1, HiSearch, HiUser } from 'react-icons/hi'
 import { useRouter } from 'next/navigation'
-import UserProfile from './pages/components/UserProfile'
-import { FaCartPlus } from 'react-icons/fa'
+
+import Header from './pages/components/header'
 export default function Home() {
   const router = useRouter()
   return (
-    <main className='w-[100vw]'>
-    <header className='p-3 flex w-full justify-between items-center'>
-      <FaCartPlus />
-      <p>logo</p>
-    <UserProfile/>
-    </header>
+    <main className='w-[100vw] h-[1000vh]'>
+      <div className='bg-orange-900  fixed w-full'>
+        <Header />
+      </div>
     <section className='relative'>
 
         <Main />  
