@@ -1,7 +1,7 @@
 import img1 from '@/app/assets/images/Daco_4880640.png'
 import img2 from '@/app/assets/images/Daco_4884463.png'
 import img3 from '@/app/assets/images/NicePng_bank-png_2237554.png'
-import img4 from '@/app/assets/images/pngwing.com (1).png'
+import img4 from '@/app/assets/images/pngwing.png'
 import img5 from '@/app/assets/images/pngwing.com.png'
 
 import { BsFillPhoneFill, BsLaptop } from 'react-icons/bs'
