@@ -22,9 +22,7 @@ export default function Home() {
 
       <section className="fixed flex items-center w-[100vw] justify-evenly px-1 h-[9vh] text-3xl bottom-0 left-0 right-0 bg-gray-400 rounded-t-lg text-white">
         <HiHome onClick={() => router.push("@/app/pages/login")} />
-        <Link href={"/login"}>
         <HiSearch  />
-        </Link>
         <HiHeart />
         <HiUser />
       </section> */}
