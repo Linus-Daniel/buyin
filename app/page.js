@@ -13,7 +13,7 @@ export default function Home() {
   const router = useRouter();
   return (
     <main className="font-poppins">
-      <div className="bg-orange-300 z-20 sticky top-0 w-full">
+      {/* <div className="bg-orange-300 z-20 sticky top-0 w-full">
         <Header />
       </div>
       <section className="relative">
@@ -22,10 +22,13 @@ export default function Home() {
 
       <section className="fixed flex items-center w-[100vw] justify-evenly px-1 h-[9vh] text-3xl bottom-0 left-0 right-0 bg-gray-400 rounded-t-lg text-white">
         <HiHome onClick={() => router.push("@/app/pages/login")} />
-        <HiSearch onClick={()=>router.push("/login")} />
+        <Link href={"/login"}>
+        <HiSearch  />
+        </Link>
         <HiHeart />
         <HiUser />
-      </section>
+      </section> */}
+      <ProductView />
       
     </main>
   );
