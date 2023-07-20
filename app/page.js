@@ -11,8 +11,8 @@ import {routerTrigger } from "./routes/Routes";
 
 export default function Home() {
   return (
-    <div>
       <Router>
+    <div>
         <main className="font-poppins">
           <div className="bg-orange-300 z-20 sticky top-0 w-full">
             <Header />
@@ -34,7 +34,7 @@ export default function Home() {
             
           </section>
         </main>
-      </Router>
     </div>
+      </Router>
   );
 }

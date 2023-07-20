@@ -3,10 +3,13 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { FaHeart, FaTag } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { BrowserRouter  } from "react-router-dom";
 
 function ProductCard({ product }) {
   const [favorite, setFavorite] = useState(false);
   return (
+    <BrowserRouter>
+
     <main className=" overflow-hidden w-[40vw] flex flex-wrap cursor-pointer object-contain bg-black/10 gap-3 h-[fit-content] mx-2 my-1 px-3 rounded-lg py-3">
      
         <Link to={"/productview"}>
@@ -14,7 +17,7 @@ function ProductCard({ product }) {
             src={product.image}
             alt="product image"
             className="W-full "
-            onClick={() => { console.log(view)}}
+
           />
         </Link>
 
@@ -36,6 +39,7 @@ function ProductCard({ product }) {
           />
         </div>
     </main>
+    </BrowserRouter>
   );
 }
 
