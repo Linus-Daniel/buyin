@@ -1,10 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import { useState } from "react";
+import { useState, } from "react";
 import image from "@/app/assets/images/NicePng_bank-png_2237554.png";
 import {
   FaArrowLeft,
-  FaCartPlus,
   FaHeart,
   FaMinus,
   FaPlus,
@@ -25,11 +24,11 @@ function ProductView() {
         <section className="Details bg-white px-3 pt-10 h-full rounded-t-3xl ">
           <div className="flex items-center justify-between px-5">
             <section>
-              <h3 className="font-bold text-lg">product Name</h3>
+              <h3 className="font-bold text-lg">power bank</h3>
               <div className="flex items-center">
                 <p className="font-semibold text-md text-red-500">$500</p>
                 <span className="[text-decoration:line-through;] m-1 text-xs text-gray-400 ">
-                  $900
+                  900
                 </span>
               </div>
             </section>
@@ -71,7 +70,9 @@ function ProductView() {
         </div>
         
       </div>
+    
     </main>
+  
   );
 }
 

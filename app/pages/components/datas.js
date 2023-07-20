@@ -4,9 +4,10 @@ import img3 from '@/app/assets/images/NicePng_bank-png_2237554.png'
 import img4 from '@/app/assets/images/pngwing.png'
 import img5 from '@/app/assets/images/pngwing.com.png'
 
-import { BsFillPhoneFill, BsLaptop } from 'react-icons/bs'
+import { BsBasket, BsFillPhoneFill, BsFlower1, BsLaptop } from 'react-icons/bs'
 import { MdWindow,} from 'react-icons/md'
-import { FaTshirt } from 'react-icons/fa'
+import { FaPrint, FaTshirt } from 'react-icons/fa'
+import { HiClock } from 'react-icons/hi'
 
 export const data =[
         {
@@ -56,6 +57,23 @@ export const categories = [
     },{
         name:"Laptops",
         icon:<BsLaptop />
+        ,
+    },
+    {
+        name:"Decorations",
+        icon:<BsFlower1 />
+        ,
+    },{
+        name:"Shoes",
+        icon:<FaPrint/>
+        ,
+    },{
+        name:"Accessories",
+        icon:<HiClock />
+        ,
+    },{
+        name:"Home appliance",
+        icon:<BsBasket />
         ,
     },
 ]
