@@ -6,7 +6,7 @@ import { categories, data } from "../pages/components/datas";
 function Main() {
   return (
     <main>
-        <section className="text-gray-400 flex text-3xl justify-evenly ">
+        <section className="text-gray-400 flex text-3xl justify-evenly overflow-x-scroll">
           {categories.map((item) => (
             <div
               key={Math.random()}

@@ -9,9 +9,9 @@ import ProductView from "./pages/components/productView";
 import React from "react";
 import {routerTrigger } from "./routes/Routes";
 
-export default function Home() {
+export default function page() {
   return (
-      <Router>
+    
     <div>
         <main className="font-poppins">
           <div className="bg-orange-300 z-20 sticky top-0 w-full">
@@ -35,6 +35,6 @@ export default function Home() {
           </section>
         </main>
     </div>
-      </Router>
+    
   );
 }

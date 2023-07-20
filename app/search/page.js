@@ -43,7 +43,7 @@ function Search() {
       {/* SEARCH RESULTS */}
       <div>
         {search ? (
-          <p>
+          <div>
             {find === "" ? (
               ""
             ) : (
@@ -52,7 +52,7 @@ function Search() {
                 Search results for <span>{find}</span>{" "}
               </p>
             )}
-          </p>
+          </div>
         ) : (
           ""
         )}
