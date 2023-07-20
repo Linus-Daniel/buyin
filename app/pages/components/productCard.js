@@ -11,7 +11,7 @@ function ProductCard({ product }) {
 
     <main className=" overflow-hidden w-[40vw] flex flex-wrap cursor-pointer object-contain bg-black/10 gap-3 h-[fit-content] mx-2 my-1 px-3 rounded-lg py-3">
      
-        <Link to={"/productview"}>
+        <Link to="/productview">
           <Image
             src={product.image}
             alt="product image"
