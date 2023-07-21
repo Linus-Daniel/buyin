@@ -8,7 +8,7 @@ export const metadata = {
   description: 'Created by Barry',
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, }) {
   return (
  
 

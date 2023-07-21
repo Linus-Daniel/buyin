@@ -7,6 +7,8 @@
  margin:0;
  border: 0;
  box-shadow: borderbox;
+ scrollbar-width: 1px;
+ font-family: poppins;
 }
 @font-face {
   font-family: poppins;
