@@ -13,24 +13,22 @@ function Search() {
       <div className="font-poppins">
         {/* {SEARCHING METHODS} */}
         <header className=" flex flex-col px-2 bg-white items-center mx-3 py-2 sticky top-16 z-20">
-          <section className=" flex justify-between items-center mx-3 py-2 sticky top-10 z-20">
-            <div className=" flex-1 bg-gray-200 flex justify-between mx-3 items-center p-2 rounded-lg">
+          <section className=" flex items-center justify-around w-[80vw] mx-3 py-2 sticky top-10 z-20">
+            <div className=" bg-gray-200 flex  items-center p-2 rounded-lg">
               <button onClick={() => setSearch(true)}>
-                <FaSearch className=" text-gray-600" />
+                <FaSearch className=" text-gray-600 ml-4" />
               </button>
               {/* INPUT */}
               <input
                 onChange={(e) => setFind(e.target.value)}
                 placeholder="  search product"
-                className=" outline-none px-4 flex-1 bg-[inherit] active:outline-none placeholder:text-slate-500 relative "
+                className=" outline-none px-2 bg-[inherit] active:outline-none placeholder:text-slate-500 relative "
               />
               {/* VOICE */}
               <FaMicrophone className="" />
             </div>
             {/* IMAGE */}
-            <button>
-              <HiOutlineCamera className="text-3xl text-red-400 mr-2" />
-            </button>
+           
           </section>
           {/* {CARTEGORIES} */}
           <section>
