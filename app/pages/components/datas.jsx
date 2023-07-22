@@ -77,3 +77,25 @@ export const categories = [
         ,
     },
 ]
+export const wishlist = [
+    // {
+    //     name:"",
+    //     image:"",
+    //     price:""
+    // },
+]
+
+export const cartProducts = [
+    {
+        name:"power bank",
+        image:img5,
+        price:"$200"
+
+    },{
+        name:"earpods",
+        image:img1,
+        price:"$200"
+    },
+]
+
+export const ProductContextValue =[]

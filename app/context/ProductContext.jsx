@@ -1,13 +1,13 @@
 // "use client"
 // import React, { useState } from "react";
 
-// const ProductsContext = React.createContext();
+// const ProductsContext = React.createContext({})
 
 
 // export const ProductsContextProvider =({children})=>{
-//     const [property, setProperty] = useState({});
+//     const [products, setProducts] = useState({});
 
 
-//     <ProductsContext.Provider value={{property, setProperty}}>{children}</ProductsContext.Provider>
+//     <ProductsContext.Provider value={{products, setProducts}}>{children}</ProductsContext.Provider>
 // }
 // export default ProductsContext;

@@ -1,14 +1,17 @@
-'use client'
-import React from 'react'
-import ProductView from '../pages/components/productView'
-import Main from '../layouts/Main'
+"use client";
+import React from "react";
+import ProductView from "../pages/components/productView";
+import Main from "../layouts/Main";
+
 
 function page() {
   return (
-    
-
-    <div><ProductView /></div>
-  )
+   
+      <div>
+        <ProductView />
+      </div>
+ 
+  );
 }
 
-export default page
+export default page;

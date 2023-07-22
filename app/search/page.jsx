@@ -13,7 +13,7 @@ function Search() {
       <div className="font-poppins">
         {/* {SEARCHING METHODS} */}
         <header className=" flex flex-col px-2 bg-white items-center mx-3 py-2 sticky top-16 z-20">
-          <section className=" flex items-center justify-around w-[80vw] mx-3 py-2 sticky top-10 z-20">
+          <section className=" flex items-center justify-around mx-3 py-2 sticky top-10 z-20">
             <div className=" bg-gray-200 flex  items-center p-2 rounded-lg">
               <button onClick={() => setSearch(true)}>
                 <FaSearch className=" text-gray-600 ml-4" />

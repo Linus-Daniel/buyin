@@ -2,6 +2,7 @@
 import React from "react";
 import ProductCard from "../pages/components/productCard";
 import { categories, data } from "../pages/components/datas";
+import { ProductsContextProvider } from "../context/ProductContext";
 
 function MainPage() {
   return (
@@ -18,11 +19,13 @@ function MainPage() {
         ))}
       </section>
       <div className="font-poppins justify-center p-0 flex flex-wrap">
-        {data.map((product) => (
-          <div key={Math.random()}>
-            <ProductCard product={product} />
-          </div>
-        ))}
+        
+          {data.map((product) => (
+            <div key={Math.random()}>
+              <ProductCard product={product} />
+            </div>
+          ))}
+        
       </div>
     </main>
   );
