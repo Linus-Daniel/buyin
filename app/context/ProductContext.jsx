@@ -1,7 +1,7 @@
 // "use client"
 // import React, { useState } from "react";
 
-// const ProductsContext = React.createContext({})
+// export const ProductsContext = React.createContext({})
 
 
 // export const ProductsContextProvider =({children})=>{
